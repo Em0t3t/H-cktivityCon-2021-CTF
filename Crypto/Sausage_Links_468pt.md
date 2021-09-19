@@ -117,7 +117,7 @@ def attack(n, e):
 attack(n,e)
 ```
 
-And this is <img src="https://render.githubusercontent.com/render/math?math=m*K = 2"> values of <img src="https://render.githubusercontent.com/render/math?math=m*K = d"> we found
+And this is <img src="https://render.githubusercontent.com/render/math?math=2"> values of <img src="https://render.githubusercontent.com/render/math?math= d"> we found
 
 ~~~
 d=17
