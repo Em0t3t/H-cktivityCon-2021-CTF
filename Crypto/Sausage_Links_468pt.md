@@ -1,22 +1,3 @@
-<style TYPE="text/css">
-code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
-</style>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
-    }
-});
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-});
-</script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
-
 # Sausage Links - 468pt
 ----------------------------------------
 ## Topic summary
@@ -73,6 +54,16 @@ pubkey = (5499357783008313784069488735362783497812147065033607452805974088612168
 
 
 
-### Test Latex
+### List the facts of the problem
 
-$\frac{3}{4}$
++ <img src="https://render.githubusercontent.com/render/math?math=n=pqr">
+
++ <img src="https://render.githubusercontent.com/render/math?math=\phi(n)=(p-1)(q-1)(r-1)">
+
++ <img src="https://render.githubusercontent.com/render/math?math=l=min(p,q,r)">
+
++ <img src="https://render.githubusercontent.com/render/math?math=d"> is a prime number <img src="https://render.githubusercontent.com/render/math?math=2^{8}"> bits
+
++ <img src="https://render.githubusercontent.com/render/math?math=ed\equiv 1(\text{ mod } \phi(n))">
+
++ <img src="https://render.githubusercontent.com/render/math?math=a"> is a prime number (<img src="https://render.githubusercontent.com/render/math?math=2048"> bit)
