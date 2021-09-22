@@ -21,7 +21,8 @@ https://sam.gleske.net/uharc/
 
 # SOLVE
 * We need brute-force one more time to get the flag
-* Use option -o+ to overwrite old file uhaha
+* Rename uhaha to uhaha.uha
+* Use option -o+ to overwrite old file uhaha.uha
 * Use option -pw to enter password
 * Don't click or use the keyboard during executing this script
 
